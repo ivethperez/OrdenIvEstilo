@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_component_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "alt": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "config": {}
+}

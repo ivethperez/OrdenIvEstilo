@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_layout_hero_sections",
+  "info": {
+    "displayName": "Hero Section",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "tagline": {
+      "type": "string",
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "component",
+      "component": "component.link",
+      "repeatable": false,
+      "required": true
+    },
+    "images": {
+      "type": "component",
+      "component": "component.image",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
